@@ -1,0 +1,12 @@
+&zkPort: 2181
+zkClient:
+  - host: localhost
+    port: *zkPort
+  - host: 127.0.0.1
+    port: *zkPort
+
+fecingScript:
+  - hoge.sh
+  - piyo.sh
+
+zkTickTime: 1000
